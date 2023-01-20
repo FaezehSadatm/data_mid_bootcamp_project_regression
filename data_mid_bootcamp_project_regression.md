@@ -1,51 +1,31 @@
-#### Introduction to the Project
+1. Overview of Topic: Regression
+My job is to build a model that will predict the price of a house based on features provided in the dataset. Senior management also wants to explore the characteristics of the houses using some business intelligence tools. One of those parameters includes understanding which factors are responsible for higher property value.
+I am working as an analyst for a real estate company. My company wants to build a machine learning model to predict the selling prices of houses based on a variety of features on which the value of the house is evaluated.
 
-I worked on this project as part of my mid-bootcamp-project during a Data Analytics course at Ironhack Coding School.
+2. Timeline
 
+3. Data exploration and preparation
+3.1 Explore the data by Tableau
+I used Tableau for visualisation and exploring the data further. I saw the most expensive area, what kind of houses are most required and in which years built properties cost more
 
-#### Instructions
+3.2 Explore the data by MySQL
+By using MySQL I tried to understand our dataset better. By answering the questions I saw better unique values of columns, in what kind of correlation are they between each other, the average price of properties, and other information and it helps to us to work with data.
 
-You are working as an analyst for a real estate company. Your company wants to build a machine learning model to predict the selling prices of houses based on a variety of features on which the value of the house is evaluated.
+3.3 Preparing the Data by Python
+After explore the dataset I started clean it in Python and prepare it for building the models.
+Cleaning and preparation steps:
+       - Check for NaN values and duplicates;
+       - create a Month and Year columns;
+       - Drop columns:Id and date;
+       - Fill the price column with Mean;
+       - Plots with matplot and seaborn;
+       - Check dataset correlation;
+       - Explore relationships between variables;
 
+4. Build the Models
+I used Linear Regression model to compare the accuracy rates between the original and adjusted data then find the model that best fits our data.
 
-#### Objective
-
-The task is to build a model that will predict the price of a house based on features provided in the dataset.
-
-
-#### Data
-
-Data Source
-
-The Data has been provided from Ironhack coding school as part of my mid-bootcamp-project for my Data Analytics course.
-
-Structure of the Data
-
-The data set consists of information on some 21.597 properties. The dataset consisted of historic data of houses sold between May 2014 to May 2015. Following features are available:
-id
-date
-bedrooms
-bathrooms
-sqft_living
-sqft_lot
-floors
-waterfront
-view
-condition
-grade
-sqft_above
-sqft_basement
-yr_built
-yr_renovated
-zipcode
-lat
-long
-sqft_living15
-sqft_lot15
-price
-
-#### The Project
-#### Import, Review and Clean Data
-#### Deal with Outliers
-#### Create and Evaluate Model
-#### Conclusion
+5. Summary         
+This project entitled Mid-bootcamp project: Predict real estate price is useful in buying the houses, by predicting house prices, and thereby to guide their buyers accordingly. The proposed system is also useful to the buyers to predict the cost of house according to the area it is present.
+          
+ Thank you for reading!
