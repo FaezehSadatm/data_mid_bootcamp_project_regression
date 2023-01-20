@@ -1,3 +1,6 @@
+#### data_mid_bootcamp_project_regression
+
+
 #### 1.Overview of Topic: Regression
 
 My job is to build a model that will predict the price of a house based on features provided in the dataset. Senior management also wants to explore the characteristics of the houses using some business intelligence tools. One of those parameters includes understanding which factors are responsible for higher property value.
