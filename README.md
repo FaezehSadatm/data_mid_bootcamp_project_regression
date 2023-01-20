@@ -19,7 +19,7 @@ My job is to build a model that will predict the price of a house based on featu
 
 **4. Build the Models**
 
-I used Linear Regression model to compare the accuracy rates between the original and adjusted data then find the model that best fits our data.
+I used Linear Regression model and Random Forest Regressor to compare the accuracy rates then find the model that best fits my data.
 
 
 **5. Summary**
