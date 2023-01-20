@@ -1,4 +1,4 @@
-Introduction to the Project
+####Introduction to the Project
 I worked on this project as part of my mid-bootcamp-project during a Data Analytics course at Ironhack Coding School.
 
 Instructions
